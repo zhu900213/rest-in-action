@@ -44,7 +44,7 @@ Handle JSON and XML 处理 JSON 和 XML
         return pojo;
     }
 
-其中 `@Produces(MediaType.APPLICATION_XML)`意思是以 JSON 形式将对象返回给客户端。
+其中 `@Produces(MediaType.APPLICATION_JSON)`意思是以 JSON 形式将对象返回给客户端。
 
 在 index.jsp 里面，我们写了一个调用该 API 的方法
 
